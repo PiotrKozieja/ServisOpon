@@ -13,12 +13,11 @@ html{
     scroll-snap-type: y mandatory;
 }
 #box{
-    scroll-padding-bottom: 20px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 650px;
-    padding-top: 300px;
+    padding-top: 10%;
     color: white;
 }
 #top
@@ -36,7 +35,7 @@ html{
 }
 
 #buttons{
-    margin-top: 140px;
+    margin-top: 70px;
     width: 95%;
     height: 170px;
     display: flex;
@@ -160,7 +159,7 @@ html{
     font-family: 'Mr Dafoe', cursive;
     text-align: center;
     font-size: 40px;
-    margin-top:40px
+    margin-top:50px
 }
 #contentf{
     scroll-snap-align: center;
