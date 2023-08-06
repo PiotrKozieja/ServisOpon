@@ -67,15 +67,38 @@ html{
     align-items: center; /* Vertical centering, if needed */
     display: flex;
 }
-.btn:hover{
-    margin-top: 5px;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 350px;
-    height: 150px; 
-    border-color:white;
-    font-size: 28px;
-}
+@media only screen and (min-width: 1200px) {
+        .btn{
+            width: 330px;
+            height: 150px; 
+            margin-left: auto;
+            margin-right: auto;
+            font-family: "Audiowide", sans-serif;
+            font-size: 25px;
+            background-color: #0a2647;
+            border-radius: 50px;
+            border-style: solid;
+            border-color: #0a2647;
+            border-width: 5px;
+            color: white;
+            transition: 0.4s;
+            text-decoration: none;
+            text-align: center;
+            justify-content: center; /* Horizontal centering */
+            align-items: center; /* Vertical centering, if needed */
+            display: flex;
+        }
+        .btn:hover{
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 350px;
+            height: 150px; 
+            border-color:white;
+            font-size: 28px;
+        }
+    }
+
 #content{
     margin-top: 400px;
     scroll-snap-align: center;
@@ -553,14 +576,9 @@ iframe:hover{
         justify-content: center; /* Horizontal centering */
         align-items: center; /* Vertical centering, if needed */
         margin-top:3px;
+        transition: 0.2;
     }
-    .btn:hover{
-        border-color:white;
-        font-size: 15px;
-        height: 70px;
-        padding-top: 1px;
-        padding-bottom: 2px;
-    }
+
     #contentf{
         padding-top: 50px;
         height: 500px;
@@ -706,14 +724,6 @@ iframe:hover{
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 30px;
-    }
-    iframe:hover{
-        width: 85%;
-        height: 200px;
-        font-size: 10px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 30px;
-
+        pointer-events: none;
     }
 }
