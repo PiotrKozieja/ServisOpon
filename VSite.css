@@ -484,8 +484,6 @@ iframe{
         transition-timing-function: ease-in-out;  
 }}
 
-
-
 @media (max-width: 1200px) {
     #body{
 
@@ -508,7 +506,7 @@ iframe{
         width: 100%;
         background-size: cover;
         background-attachment: fixed;
-        padding-top: 150px;
+        padding-top: 80px;
     }
     #name{
         font-size: 20px;
@@ -743,7 +741,8 @@ iframe{
         font-size: 9px;
     }
 }
-@media only screen and (min-height: 800px) {
+@media only screen and (min-height: 800px ) and (min-width:1200px) {
     #box{padding-top: 17%;}
+    #
     
 }
