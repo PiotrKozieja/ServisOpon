@@ -110,7 +110,7 @@ html{
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 #icontent{
     width: 600px;
@@ -181,7 +181,7 @@ html{
     min-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 #icontentf{
@@ -244,7 +244,7 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 #contentc0{
     width: 600px;
@@ -306,7 +306,7 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 #icontentp{
     width: 600px;
@@ -369,7 +369,7 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 #icontentpr{
     width: 600px;
@@ -436,7 +436,7 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 #idcontact{
     width: 600px;
