@@ -478,24 +478,13 @@ iframe{
     color:white;
     transition: 0.2s;
 }
-iframe:hover{
-    width: 620px;
-    height: 620px;
-    transition-timing-function: ease-in-out;  
-}
-@keyframes spin{
-    50% {transform: rotate(180deg);}
-}
+@media (min-width: 1200px) {
+    iframe:hover{
+        width: 620px;
+        height: 620px;
+        transition-timing-function: ease-in-out;  
+}}
 
-@keyframes move{
-    0%   {left: -1800px; top:0px;}
-    100% {left:0px; top:0px;}
-}
-@keyframes move1{
-    0%   {left: 1000px; top:0px;}
-    100% {left:0px; top:0px;}
-    
-}
 
 
 @media (max-width: 1200px) {
@@ -509,6 +498,10 @@ iframe:hover{
         font-size: 20px;
         height: 100px;
         margin-bottom: 1px;
+        border-radius: 50px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
     }
     #box{
         background-position:left;
@@ -564,6 +557,10 @@ iframe:hover{
         border-style: none;
         opacity: 0.95;
         background-color: #144272;
+        border-radius: 30px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
     }
     .btn{
         font-size: 8px;
@@ -727,6 +724,24 @@ iframe:hover{
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 30px;
-        pointer-events: none;
+    }
+}
+@media only screen and (max-width: 333px) {
+    #top
+    {   
+        padding-top: 20px;
+        font-family: "Audiowide", sans-serif;
+        text-align: center;
+        scroll-snap-align: center;
+        opacity: 0.95;
+        font-size: 15px;
+        background-color: #144272;
+        line-height: 0.1;
+    }
+    #icontentf{
+        font-size: 7px;
+    }
+    #icontent1{
+        font-size: 9px;
     }
 }
