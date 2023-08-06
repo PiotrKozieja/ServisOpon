@@ -18,7 +18,7 @@ html{
     background-position: center;
     background-size: cover;
     height: 650px;
-    padding-top: 400px;
+    padding-top: 300px;
     color: white;
 }
 #top
@@ -37,7 +37,7 @@ html{
 
 #buttons{
     margin-top: 140px;
-    width: 90%;
+    width: 95%;
     height: 170px;
     display: flex;
     background-color: #0a2647;
@@ -53,7 +53,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     font-family: "Audiowide", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #0a2647;
     border-radius: 50px;
     border-style: solid;
@@ -74,7 +74,7 @@ html{
             margin-left: auto;
             margin-right: auto;
             font-family: "Audiowide", sans-serif;
-            font-size: 25px;
+            font-size: 20px;
             background-color: #0a2647;
             border-radius: 50px;
             border-style: solid;
@@ -110,11 +110,11 @@ html{
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 #icontent{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #144272;
     border-radius: 50px;
     border-style: solid;
@@ -124,27 +124,27 @@ html{
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
-    margin-right: 40px;
+    margin-right: 20px;
     font-family: "Audiowide", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.2s;
 }
 #icontent:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 #icontent1{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #144272;
     border-radius: 50px;
     border-width: 2px;
     border-style: solid;
     border-color: white;
     color: rgb(255, 255, 255);
-    margin-left: 40px;
-    font-size: 30px;
+    margin-left: 20px;
+    font-size: 25px;
     font-family: "Audiowide", sans-serif;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
@@ -152,8 +152,8 @@ html{
     transition: 0.2s;
 }
 #icontent1:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 #name{
@@ -164,7 +164,7 @@ html{
 }
 #contentf{
     scroll-snap-align: center;
-    height: 900px;
+    height: 700px;
     width: 99%;
     background-color:#144272 ;
     background-position: center;
@@ -181,11 +181,12 @@ html{
     min-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 200px;
 }
 
 #icontentf{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     border-radius: 50px;
     border-width: 2px;
     border-style: solid;
@@ -193,23 +194,23 @@ html{
     background-color: #0a2647;
     color:white;
     font-family: "Audiowide", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
     position:relative;
-    margin-left: 10px;
+    margin-right: 20px;
     transition: 0.2s;
 }
 #icontentf:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 
 #icontentf1{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-image: url(tlo3.png);
     background-attachment: fixed;
     background-position: center;
@@ -219,17 +220,17 @@ html{
     border-style: solid;
     border-color: white;
     color: rgb(255, 255, 255);
-    margin-left: 100px;
+    margin-left: 20px;
     transition: 0.2s;
 }
 #icontentf1:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 
 #contentc{
-    height: 900px;
+    height: 700px;
     width: 99%;
     scroll-snap-align: center;
     background-color: #144272;
@@ -243,10 +244,11 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 200px;
 }
 #contentc0{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
@@ -257,44 +259,40 @@ html{
     display: flex;
     transition: 0.2s;
     font-family: "Audiowide", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
+    margin-right: 20px;
 }
 #contentc0:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 
 #contentc1{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    margin-left: 100px;
+    margin-left: 20px;
     transition: 0.2s;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
     font-family: "Audiowide", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color:white;
 }
 #contentc1:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
-#tyres1{
-    animation: spin 10s infinite;
-    width: 600px;
-    height:600px;
-}
 #contentp{
-    height: 900px;
+    height: 700px;
     width: 99%;
     scroll-snap-align: center;
     background-color: #144272;
@@ -308,10 +306,11 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 200px;
 }
 #icontentp{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
@@ -322,40 +321,41 @@ html{
     display: flex;
     transition: 0.2s;
     font-family: "Audiowide", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     transition: 0.2s;
+    margin-right: 20px;
 }
 #icontentp:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 #icontentp1{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    margin-left: 100px;
+    margin-left: 20px;
     transition: 0.2s;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
     font-family: "Audiowide", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color:white;
     transition: 0.2s;
 }
 #icontentp1:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 #contentpr{
-    height: 900px;
+    height: 700px;
     width: 99%;
     scroll-snap-align: center;
     background-color: #144272;
@@ -369,10 +369,11 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 200px;
 }
 #icontentpr{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
@@ -383,36 +384,37 @@ html{
     display: flex;
     transition: 0.2s;
     font-family: "Audiowide", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     transition: 0.2s;
+    margin-right: 20px;
 }
 #icontentpr:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 #icontentpr1{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    margin-left: 100px;
+    margin-left: 20px;
     transition: 0.2s;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
     font-family: "Audiowide", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     transition: 0.2s;
 }
 #icontentpr1:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 
@@ -420,7 +422,7 @@ html{
 
 
 #dcontact{
-    height: 900px;
+    height: 700px;
     width: 99%;
     scroll-snap-align: center;
     background-color: #144272;
@@ -434,10 +436,11 @@ html{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 200px;
 }
 #idcontact{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
@@ -448,36 +451,37 @@ html{
     display: flex;
     transition: 0.2s;
     font-family: "Audiowide", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     transition: 0.2s;
+    margin-right: 20px;
 }
 #idcontact:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 iframe{
-    width: 750px;
-    height: 750px;
+    width: 600px;
+    height: 600px;
     background-color: #0a2647;
     border-radius: 50px;
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    margin-left: 100px;
+    margin-left: 20px;
     transition: 0.2s;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
     display: flex;
     font-family: "Audiowide", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     transition: 0.2s;
 }
 iframe:hover{
-    width: 770px;
-    height: 770px;
+    width: 620px;
+    height: 620px;
     transition-timing-function: ease-in-out;  
 }
 @keyframes spin{
