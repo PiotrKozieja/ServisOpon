@@ -146,8 +146,11 @@ html{
     font-family: "Audiowide", sans-serif;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering, if needed */
-    display: flex;
+    display:flex;
     transition: 0.2s;
+
+
+
 }
 #icontent1:hover{
     width: 620px;
@@ -574,7 +577,6 @@ iframe{
         margin-top:3px;
         transition: 0.2;
     }
-
     #contentf{
         padding-top: 50px;
         height: 500px;
